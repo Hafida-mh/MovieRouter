@@ -1,0 +1,74 @@
+.NavBar {
+    border: 1px hidden black;
+    height: 85px;
+    width: 100%;
+    background-color: #042541;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.navContent {
+    border: 1px hidden white;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchSelect, .searchInput {
+    border: 1px hidden black;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.searchInput {
+    justify-content: flex-end;
+}
+
+.searchSelect .content, .searchInput .contentInput {
+    border: 1px hidden white;
+    width: auto;
+    
+}
+
+.searchSelect .content button {
+    margin: 10px;
+    height: 40px;
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.searchInput .contentInput input {
+    height: 40px;
+    border-radius: 5px;
+    border : none;
+    margin-right: 15px;
+    width: 200px;
+    outline: none;
+}
+
+
+.searchInput .contentInput button {
+    height: 40px;
+    border-radius: 5px;
+    border : 1px solid green;
+    background-color:  transparent;
+    color: green;
+    cursor: pointer;
+}
+
+
+
+.fa-star {
+    color: yellow;
+}
+
+
+.fa-fire-alt {
+    color: rgb(250, 192, 85);
+}
